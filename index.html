@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200.. 800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <!-- DaisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind config js CDN -->
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'book-primary': '#ABEF5F',
+            'book-primary-bg': '#1C1C1C',
+            
+          }
+        }
+      }
+    }
+  </script>
+  <!-- font awesome CDN -->
+  <script src="https://kit.fontawesome.com/bbfc4be646.js"
+  crossorigin="anonymous">
+  </script>
+
+
+    
+</head>
+<body class="font-manrope">
+    <!-- header section -->
+    <header class="md:container mx-auto">
+        <!-- navbar section -->
+         <nav class="">
+            <div class="navbar my-7 bg-base-100">
+                <div class="navbar-start">
+                    <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right -rotate-45  bg-book-primary justify-center inline-flex items-center text-white rounded-full w-7 h-7"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex mr-8">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden sm:hidden md:inline-flex lg:inline-flex justify-center items-center">
+                        <i class="fa-solid fa-magnifying-glass gap-2 hidden sm:hidden md:inline-flex lg:inline-flex"></i>
+                        <i class="fa-solid fa-cart-shopping mx-2"></i>
+                        <a class="btn bg-book-primary md:w-30 md:h-3 md:rounded-3xl lg:rounded-3xl ">Book Consult<i class="fa-solid  fa-arrow-right -rotate-45  bg-book-primary-bg justify-center inline-flex items-center text-white rounded-full w-7 h-7"></i></a>
+                    </div>
+                    <div class="flex-1">
+                    <div class="dropdown dropdown-bottom dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost justify-end lg:hidden ">
+                            <svg
+                                
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-20 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                            <ul
+                                tabindex="0"
+                                class="dropdown-content menu bg-base-100 rounded-box z-[1] w-30 p-2 shadow">
+                                <li class="hover:text-blue-600"><a>Home</a></li>
+                                <li class="hover:text-blue-600"><a>Services</a></li>
+                                <li class="hover:text-blue-600"><a>Portfolio</a></li>
+                                <li class="hover:text-blue-600"><a>Blogs</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    </div>
+
+                </div>
+                <!-- menu-1.2 -->
+                
+            </div>
+            <!-- menu 2 -->            
+         </nav>        
+    </header>
+    <!-- main section -->
+    <main></main>
+    <!-- footer section -->
+    <footer></footer>
+    
+</body>
+</html>
