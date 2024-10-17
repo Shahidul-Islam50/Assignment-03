@@ -12,6 +12,9 @@
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
+        .input-section{
+            background-image: url('assets/bg.jpg');
+        }
     </style>
     <!-- DaisyUi CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -309,7 +312,7 @@
                 <div></div>
             </div>
         </section>
-        <!-- Rrad articles & news section -->
+        <!-- Read articles & news section -->
         <section class="py-8 lg:py-24">
             <!-- title -->
             <div class="text-center mb-8">
@@ -361,6 +364,52 @@
 
              </div>
          </section>
+        <!-- input section -->
+        <section class="input-section">
+            <div class="px-10 py-12">
+                <!-- title content -->
+                <div class="text-center mb-8">
+                    <button class="btn rounded-3xl bg-lime-100 mb-4 sm:text-center"><i class="fa-solid fa-arrow-right  justify-center inline-flex items-center text-black  w-2 h-1"></i>Let’s Connect</button>
+                    <h2>Let’s Discuss Next Project</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <!-- input content -->
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                    <div class="">
+                        <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                            
+                            <input type="text" class="grow" placeholder="First Name*" required/>
+                        </label>
+                    </div>
+                    <div class="">
+                        <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                            
+                            <input type="text" class="grow" placeholder="Last Name*" required/>
+                        </label>
+                    </div>
+                    <div class="">
+                        <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                           
+                            <input type="number" class="grow" placeholder="Phone number*" required/>
+                        </label>
+                    </div>
+                    <div class="">
+                        <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                           
+                            <input type="email" class="grow" placeholder="Email number*" required/>
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-5 mt-3 ">
+                    <label class="form-control rounded-lg">
+                        <textarea class="textarea textarea-bordered h-60" placeholder="Write Your message here"></textarea>
+                    </label>
+                </div>
+                <div class="">
+                    <button class="rounded-3xl bg-book-primary border border-gray-100 w-full h-11 px-3">Send Mail       <i class="fa-solid fa-arrow-right -rotate-45  bg-black justify-center inline-flex items-center text-white rounded-full w-7 h-7"></i></button>
+                </div>
+            </div>
+        </section>
 
 
     </main>
